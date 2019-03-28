@@ -1,0 +1,13 @@
+// основной файл, в нём все импорты и основные стили
+
+
+//блок с первичными файлами
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'default_css.scss';
+@import 'styleguide.scss';
+
+
+
+@import "partials/header";
+@import "partials/play-arena";

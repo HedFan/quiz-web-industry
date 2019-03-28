@@ -1,0 +1,70 @@
+.quiz-block {
+  .play-arena {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @include respond-to(md) {
+      flex-direction: row;
+    }
+
+    .card-item {
+      margin: 20px auto;
+      height: 200px;
+      width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      z-index: 2;
+      @include respond-to(md) {
+        margin: 20px;
+      }
+
+      img {
+        z-index: -1;
+      }
+    }
+
+    .unselect {
+      display: none;
+    }
+
+    .select {
+      display: block;
+    }
+  }
+
+    p {
+      margin: 20px auto;
+      width: 100%;
+      text-align: center;
+      font-family: 'Fixedsys';
+      display: block;
+    }
+
+  .card-btn {
+    display: none;
+    justify-content: center;
+
+    button {
+      background-color: #62468A;
+      color: $white;
+      font-size: 34px;
+      padding: 8px 27px;
+      cursor: pointer;
+      margin: 20px;
+      border-radius: 11px;
+      border: none;
+      font-family: 'Fixedsys';
+      &:focus {
+        outline: none;
+      }
+    }
+
+  }
+  .show{
+    display: flex;
+
+  }
+}

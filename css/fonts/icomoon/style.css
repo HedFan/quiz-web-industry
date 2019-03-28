@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?3usmg0');
+  src:  url('icomoon.eot?3usmg0#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?3usmg0') format('truetype'),
+    url('icomoon.woff?3usmg0') format('woff'),
+    url('icomoon.svg?3usmg0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-skryt:before {
+  content: "\e91f";
+}
+.icon-full_card .path1:before {
+  content: "\e919";
+  color: rgb(186, 26, 118);
+}
+.icon-full_card .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(186, 26, 118);
+}
+.icon-full_card .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(186, 26, 118);
+}
+.icon-full_card .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-full_card .path5:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(186, 26, 118);
+}
+.icon-full_card .path6:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(186, 26, 118);
+}
+.icon-card_shopping:before {
+  content: "\e90c";
+}
+.icon-arrow_back:before {
+  content: "\e918";
+}
+.icon-bottom:before {
+  content: "\e916";
+}
+.icon-up:before {
+  content: "\e917";
+}
+.icon-season:before {
+  content: "\e914";
+}
+.icon-size:before {
+  content: "\e915";
+}
+.icon-breadcrumbs_arrow:before {
+  content: "\e913";
+}
+.icon-arrow:before {
+  content: "\e912";
+}
+.icon-close:before {
+  content: "\e90e";
+}
+.icon-color:before {
+  content: "\e90f";
+}
+.icon-povod:before {
+  content: "\e910";
+}
+.icon-type:before {
+  content: "\e911";
+}
+.icon-preim_1:before {
+  content: "\e900";
+}
+.icon-preim_2:before {
+  content: "\e901";
+}
+.icon-preim_3:before {
+  content: "\e902";
+}
+.icon-preim_4:before {
+  content: "\e903";
+}
+.icon-preim_5:before {
+  content: "\e904";
+}
+.icon-turcan:before {
+  content: "\e905";
+}
+.icon-school:before {
+  content: "\e906";
+}
+.icon-personal:before {
+  content: "\e907";
+}
+.icon-out:before {
+  content: "\e908";
+}
+.icon-gift:before {
+  content: "\e909";
+}
+.icon-clients:before {
+  content: "\e90a";
+}
+.icon-enter:before {
+  content: "\e90b";
+}
+.icon-phone:before {
+  content: "\e90d";
+}

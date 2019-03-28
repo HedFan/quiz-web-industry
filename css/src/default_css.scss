@@ -1,0 +1,158 @@
+// стандартные стили, из проекта в проект
+.rouble {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  font-family: 'rouble';
+}
+
+img {
+  max-width: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.main-сontent {
+  flex: 1 1 auto;
+}
+
+section {
+  position: relative;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+  z-index: 15;
+}
+
+.tablebodytext {
+  display: none;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.slick-slider {
+
+  * {
+    outline: none;
+    user-select: none;
+    user-focus: none;
+  }
+
+  .slick-slide {
+    height: auto;
+  }
+}
+
+.sliderHolder {
+  overflow: hidden;
+}
+
+.desktop-show {
+
+  @include respond-to(sm) {
+    display: none;
+  }
+  @include respond-to(md) {
+    display: block;
+  }
+  @include respond-to(lg) {
+
+  }
+}
+
+.mobile-show {
+  display: block;
+  @include respond-to(sm) {
+
+  }
+  @include respond-to(md) {
+    display: none;
+  }
+  @include respond-to(lg) {
+
+  }
+}
+
+.to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 9999;
+  opacity: 0;
+  cursor: pointer;
+  border: 1px solid $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s opacity;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &.show {
+    opacity: .5;
+  }
+}
+
+.simple-list {
+  &__element-holder {
+
+  }
+
+  &__element {
+
+  }
+
+  .simple-element {
+    margin: 10px;
+    border: 1px solid $black;
+
+    &__name {
+
+    }
+  }
+}
+
+.imitate-link {
+  background: none;
+  border: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.tech-wi {
+  &__block {
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.g-recaptcha {
+  iframe {
+    transform: scale(0.9) translateX(-20px);
+    @include respond-to(sm) {
+      transform: none;
+    }
+  }
+}

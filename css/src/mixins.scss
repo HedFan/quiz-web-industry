@@ -1,0 +1,101 @@
+@mixin respond-to($media) {
+  @if $media == sm {
+    @media (min-width: $media-sm) {
+      @content;
+    }
+  } @else if $media == md {
+    @media (min-width: $media-md) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media (min-width: $media-lg) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media (min-width: $media-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-from($media) {
+  @if $media == sm {
+    @media (max-width: $media-sm) {
+      @content;
+    }
+  } @else if $media == md {
+    @media (max-width: $media-md) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media (max-width: $media-lg) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media (max-width: $media-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin flex($justify: null, $align: null, $wrap: null, $direction: null, $important: null) {
+  @if $important {
+    display: flex !important;
+  } @else {
+    display: flex;
+  }
+  @if $justify {
+    justify-content: $justify;
+  }
+  @if $align {
+    align-items: $align;
+  }
+  @if $wrap {
+    flex-wrap: $wrap;
+  }
+  @if $direction {
+    flex-direction: $direction;
+  }
+}
+
+@mixin placeholder-style {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  /* Firefox 19+ */
+  &:-moz-placeholder {
+    @content;
+  }
+  /* Firefox 18- */
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin pink-hover {
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 8px;
+    opacity: 0.5;
+    background-color: $pink;
+    transition: width 0.3s ease-in-out 0.1s;
+    z-index: -1;
+  }
+  &:hover {
+    z-index: 10;
+    text-decoration: none;
+    &:after {
+      width: 100%;
+    }
+  }
+}

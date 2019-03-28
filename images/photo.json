@@ -1,0 +1,19 @@
+{
+  "contents": [
+    {
+      "RightPhoto": "images/01.25d918f0.png",
+      "WrongPhoto": "images/00.25d918f0.png",
+      "Text": "Здесь должно быть так потому что я девочка"
+    },
+    {
+      "RightPhoto": "images/01.230180dc.png",
+      "WrongPhoto": "images/00.230180dc.png",
+      "Text": "Здесь должно быть так потому что я девочка"
+    },
+    {
+      "RightPhoto": "images/01.aea106c6.png",
+      "WrongPhoto": "images/00.aea106c6.png",
+      "Text": "Здесь должно быть так потому что я девочка"
+    }
+  ]
+}

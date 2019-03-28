@@ -1,0 +1,45 @@
+{
+  "name": "main_gulp",
+  "version": "1.0.0",
+  "description": "Main gulp css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "clean-css": "^4.1.9",
+    "gulp": "github:gulpjs/gulp#v4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-rework-url": "^0.1.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-flatten": "^0.4.0",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-modify-css-urls": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^5.0.1",
+    "main-bower-files": "^2.13.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Medinova/quiz-web-industry.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Medinova/quiz-web-industry/issues"
+  },
+  "homepage": "https://gitlab.com/Medinova/quiz-web-industry#README"
+}
